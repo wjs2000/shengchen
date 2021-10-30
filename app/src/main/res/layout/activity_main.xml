@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView456"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="#776E6E"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:gravity="center"
+        android:text="你出生于"
+        android:textColor="#C6000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="年份"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#C6000000"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/textView03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView01"
+        android:layout_marginLeft="20dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="月份"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#C6000000"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/textView05"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView03"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textColor="#C6000000"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/textView07"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView05"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/rdgp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="生之时"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
